@@ -1,6 +1,6 @@
 # ai-stt — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+Speech-to-Text for togo — Whisper + Deepgram drivers
 
 ## Install
 
@@ -12,15 +12,14 @@ A capability plugin — it self-registers on boot; no driver selector needed.
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
-| Env var | Notes |
-|---|---|
-| `DEEPGRAM_API_KEY` | _see provider docs_ |
-| `G` | _see provider docs_ |
-| `OPENAI_API_KEY` | _see provider docs_ |
-| `OPENAI_BASE_URL` | _see provider docs_ |
-| `STT_DRIVER` | _see provider docs_ |
+| Env var |
+|---|
+| `DEEPGRAM_API_KEY"` |
+| `OPENAI_API_KEY"` |
+| `OPENAI_BASE_URL"` |
+| `STT_DRIVER"` |
 
 ## Usage
 
@@ -32,4 +31,4 @@ text, err := stt.FromKernel(k).Transcribe(ctx, audioBytes, stt.Options{})
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/ai-stt
-- README: ../README.md
+- Full README: ../README.md
