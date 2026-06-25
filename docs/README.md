@@ -16,10 +16,10 @@ Environment variables read by this plugin (extracted from the source — see the
 
 | Env var |
 |---|
-| `DEEPGRAM_API_KEY"` |
-| `OPENAI_API_KEY"` |
-| `OPENAI_BASE_URL"` |
-| `STT_DRIVER"` |
+| `DEEPGRAM_API_KEY` |
+| `OPENAI_API_KEY` |
+| `OPENAI_BASE_URL` |
+| `STT_DRIVER` |
 
 ## Usage
 
